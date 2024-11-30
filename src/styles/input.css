@@ -1,0 +1,42 @@
+input,
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  font-size: 100%;
+  border-radius: 4px;
+  color: var(--text-color);
+  padding: 8px 12px;
+  border: 1px solid lightgray;
+  transition: 0.2s;
+  margin-bottom: 4px;
+}
+
+input:focus,
+input:focus-visible,
+textarea:focus,
+textarea:focus-visible,
+button:focus,
+button:focus-visible {
+  outline: none;
+  border-color: lightblue;
+  box-shadow: 0 0 0 4px #87cefaaa;
+}
+
+textarea {
+  font-family: inherit;
+  resize: vertical;
+}
+
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  border-color: lightblue;
+}
+
+button:active {
+  transition: 0s;
+  color: lightblue;
+}

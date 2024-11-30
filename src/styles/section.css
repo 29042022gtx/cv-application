@@ -1,0 +1,14 @@
+.section-wrapper {
+  display: grid;
+}
+
+@media (width >= 786px) {
+  .section-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .span-md-2 {
+    grid-column: span 2;
+  }
+}
